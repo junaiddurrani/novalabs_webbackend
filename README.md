@@ -76,7 +76,7 @@ Below are the screenshots of application.
 ## Appointments DB
 
 
-![Appointments DB](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.31.39%20PM.png?raw=true)
+![Appointments DB](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.27.27%20PM.png?raw=true)
 
 
 ## Thunder Client API Calls Collection
