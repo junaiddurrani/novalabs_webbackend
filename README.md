@@ -1,70 +1,85 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NovaLabs Test MERN Stack Application
 
-## Available Scripts
+This is MERN stack based application for service providers (sellers) to view appointment of users.
 
-In the project directory, you can run:
+There are following main features of this application. 
+The first once is  there is sign in and singup feature along with view all all appointments list with users details along with available time slots. 
+The second one is, seller can accept and reject the user appointment request. 
+The third option is, seller can see the appointment history.
 
-### `npm start`
+Note: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the application on local machine, please first clone this repository and inside the project folder
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run this command 
 
-### `npm test`
+```bash
+  npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+After installing npm packages in react application. Execute these commands to install npm packages on Node JS app with the name backend.
+Navigate to backend folder VIA terminal with this command
 
-### `npm run build`
+```bash
+cd backend
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+and execute below command to install NPM packages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+## Run both Front-End and Back-End
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run both front-end and backend application with single command. Please use below command. This command will start both front-end and backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run both
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Below are the screenshots of application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+## Login Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Login Page](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.19.41%20PM.png?raw=true)
 
-### Code Splitting
+## Signup Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+![Signup Page](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.20.32%20PM.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Appointment History
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+![Appointment History](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.20.52%20PM.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Appointment Requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+![Appointment Requests](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.21.10%20PM.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Users DB
+
+
+![Users DB](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.27.41%20PM.png?raw=true)
+
+
+## Appointments DB
+
+
+![Appointments DB](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.31.39%20PM.png?raw=true)
+
+
+## Thunder Client API Calls Collection
+
+
+![Thunder Client API Calls Collection](https://github.com/junaiddurrani/novalabs_webbackend/blob/master/screenshots/Screenshot%202022-05-08%20at%204.31.39%20PM.png?raw=true)
